@@ -1,0 +1,100 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background-image: url("background.jpg");
+    font-family: sans-serif;
+    background-size: cover;
+}
+
+.all {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+.button {
+    font-size: 15px;
+    display: inline-block;
+    /* padding: 10px 5px; */
+    margin: 10px;
+    text-align: center;
+    width: 100px;
+    height: 100px;
+    border: 5px solid black;
+    background: rgba(0, 0, 0, 0.4);
+    border-radius: .5rem;
+    transition: all .2s ease;
+}
+
+.button p {
+    color: #FFC600;
+}
+
+.button h1 {
+    color: white;
+}
+
+.button_active {
+  border: 5px solid #FFC600;  /* Red border */
+  border-radius: 8px;         /* Rounded corners */
+  box-shadow: 0 0 5px #ff0000; /* Optional: Glow effect */
+  transform: translateX(8px);
+  text-align: center;
+}
+
+@media (max-width: 1420px){
+    .all {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .button {
+        width: 90px;
+        height: 90px;
+        margin: 8px
+    }
+}
+
+@media (max-width: 1230px){
+    .all {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .button {
+        width: 80px;
+        height: 80px;
+        margin: 8px;
+        font-size: 12px;
+    }
+}
+
+@media (max-width: 1120px) {
+    .all {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .button {
+        width: 70px;
+        height: 70px;
+        margin: 8px;
+        font-size: 11px;
+    }  
+
+}
+
+@media (max-width: 870px){
+    .all {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .button {
+        width: 70px;
+        height: 70px;
+        margin: 4px;
+        font-size: 11px;
+    } 
+}
