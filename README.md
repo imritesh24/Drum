@@ -1,2 +1,20 @@
-# Drum
-This is the first project from '30 days 30 projects of javascript'. One thing to take from this not so big project was that i did everything on my own. Css wasnt very hard either. This was the first time doing javascript not much js code, chatgpt suggested and i edited the code. Though it was not direct copy pasting, i gave chatgpt a scenario and then i edited accordingly. but the code they had given had bugs like when i press a key for a while the border color stays forever to yellow, which is not present from my code. One more thing would be, tha tthis is the first time till now that the projects that i had created all i had taken help from tutorials but this one almost 90% was my own code. This 30 days 30 js projects website provides almost everything which is better because if i had picked some random website to design i had to collect or download resources reqd. such as images, etc. this website provides direct resources. I'll just open the given website copy the resources and start building. One thing that lacks is the webpage being responsive to dimensions which i do not require and i have implemented changes for the website for some dimensions so that's enough.
+
+---
+
+## 🥁 2. **Drum**
+**Repo:** `imritesh24/Drum`  
+**Description:** A drum kit interface where pressing keys or buttons plays sounds. Mostly handcrafted JS, minimal ChatGPT editing :contentReference[oaicite:9]{index=9}.
+
+```markdown
+# Drum Kit 🥁
+
+A keyboard and mouse-enabled drum kit using JavaScript, HTML, and CSS.
+
+## 🎧 Demo
+Double-click `index.html` in your browser, then press keys (e.g., A, S, D) or click buttons to play drum sounds.
+
+## 🔧 Setup
+```bash
+git clone https://github.com/imritesh24/Drum.git
+cd Drum
+open index.html
