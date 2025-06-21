@@ -18,3 +18,7 @@ Double-click `index.html` in your browser, then press keys (e.g., A, S, D) or cl
 git clone https://github.com/imritesh24/Drum.git
 cd Drum
 open index.html
+
+## 🎮 Live Demo
+[Click here to try it!](https://imritesh24.github.io/Drum/)
+
